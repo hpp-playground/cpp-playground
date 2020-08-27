@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int compare(void *a, void *b) { return *(int *)a > *(int *)b; }
+int compare(void *a, void *b) { return *(char *)a > *(float *)b; }
 
 int main(void) {
   double a = 100.1, b = 100.2;
