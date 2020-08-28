@@ -7,8 +7,8 @@ typedef struct
 } student;
 
 int student_compare(student *a, student *b){
-  if (a->score > b->score) return 1;
-  else if (a->score == b->score && a->id < b->id) return 1;
+  if ((*a).score > (*b).score) return 1;
+  else if ((*a).score == (*b).score && (*a).id < (*b).id) return 1;
   else return 0;
 }
 
