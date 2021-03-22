@@ -20,8 +20,7 @@ int main() {
     printf("%d %d", i, j);
     if (i >= j) break;
     tmp = a[i];
-    a[i] = a[j];
-    a[j] = tmp;
+    a[i] = a[j] a[j] = tmp;
   }
   tmp = a[i];
   a[i] = a[n - 1];
